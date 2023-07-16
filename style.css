@@ -7,3 +7,55 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Header Style */
+header {
+    background-color: #d0b9a0;
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Banner Style */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #131313;
+}
